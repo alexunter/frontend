@@ -1,0 +1,15 @@
+Desenvolvimento Web: Front-end e Back-end
+
+Existem basicamente duas camadas quando se trata de desenvolvimento web: Front-end e Back-end.
+
+A camada de front-end é onde fica a estrutura HTML , as regras CSS e os comandos JavaScript, ou seja, tudo que é apresentado para os usuários. Essa camada também é chamada de client-side.
+
+Na camada de back-end pode ter várias tecnologias diferentes, como: PHP, C# (CSharp), Java, Ruby, Python, entre outras, dependendo dos objetivos do site e “a própria opção do programador”.
+
+Vamos conhecer um pouco mais sobre as linguagens Front-end:
+
+HTML 5
+
+CSS 3
+
+JavaScript
