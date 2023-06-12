@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+* {margin:0px;
+padding: 0px;}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 6px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: cadetblue;
+    border-bottom: rgb(16, 19, 19) 4px solid;
+    box-shadow: 2px 0px 3px #000;
+}
+
+h1{font-family: 'Cabin', sans-serif;
+font-size: 380%;
+color:rgb(255, 255, 255);
+text-shadow: 1px 1px 2px #000;}
+
+nav{display:flex;
+align-items: flex-end;}
+
+nav ul {list-style:none;
+}
+
+nav ul li{ display: inline-block;}
+
+nav ul li a{text-decoration: none;
+  color:rgb(10, 10, 10);
+  font-family: 'Cabin', sans-serif;
+margin-left: 10px;
+font-size: 125%;
+
+}
+
+nav ul li a:hover{text-decoration:underline ;
+    color:rgb(240, 219, 219);
+        font-size: 118%;
+    }
+
+.main-inicial {display:flex;
+    justify-content:space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.imagem-principal {
+align-items: center;
+margin: 10px;
+width:35%;
+}
+.texto-principal-meio{
+    width:65%;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-top: 30px;
+       
+    
+ 
+}
+.paragrafo-texto-principal{
+    font-family: 'Cabin', sans-serif;
+    font-size: 19px;
+    line-height: 35px;
+       margin-bottom:10px;
+       margin-top: 10px;
+   
+   text-align: center;
+}
+.linha-hr{width: 20%;
+    border-top: 3px solid black;
+
+margin:auto;
+    }
+
+    footer {
+        padding: 6px;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: cadetblue;
+        border-top: rgb(16, 19, 19) 4px solid;
+        box-shadow: 2px 0px 3px #000;
+
+    }

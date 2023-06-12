@@ -2,20 +2,65 @@
 * {margin: 0px;
     padding: 0px;
 }
-
 body {background-color: firebrick;
-    background-image: url(fundo.jpg);
+    background-image: url(../fundo.jpg);
     background-size: cover;
 }
 
 h1 {font-family: 'Noto Sans', sans-serif;
    color:lightgray;
-background-color: mediumblue;
-width:700px;
-height: 300px;
+background-color: darkgray;
+opacity: 0.7 ;
+border-bottom: 4px rgb(65, 61, 61) solid;
+color:#000;
+font-size: 48px;
+font-weight: 900;
+padding-bottom: 18px;
+margin-bottom: 18px;
+box-shadow: 0px 1px 2px #000;
+
 margin-left: 50px;
 text-align: center;
 margin: auto;
-background-image: url(fundo.jpg);
 }
 
+main{
+display:flex;
+justify-content: space-around;
+
+}
+.secao-uniuv, .secao-si, .secao-desweb{
+background-color: blueviolet;
+width:300px;
+height: 300px;
+margin:10px;
+font-family: 'Noto Sans', sans-serif;
+text-align: center;
+display:flex;
+align-items: center;
+justify-content: space-around;
+border-radius:30% 0%;
+border:#000 solid 6px;
+box-shadow: #000 5px 5px 9px;
+padding: 6px;
+opacity: 0.7;
+}
+p{font-size: 26px;
+font-weight: 700;
+text-shadow: #000 1px 1px 1px;}
+
+.secao-si{background: rgb(31,30,50);
+    background: linear-gradient(90deg, rgba(31,30,50,1) 0%, rgba(9,121,101,1) 35%, rgba(7,204,244,1) 100%);
+  color:#FFF;
+
+}
+.secao-desweb{background-color: crimson;
+}
+
+.secao-uniuv:hover{background-color: chartreuse;
+border-radius: 30%;
+color:coral;
+
+
+
+}
