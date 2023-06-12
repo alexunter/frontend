@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {margin: 0px;
+    padding: 0px;
+}
+
+body {background-color: firebrick;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+}
+
+h1 {font-family: 'Noto Sans', sans-serif;
+   color:lightgray;
+background-color: mediumblue;
+width:700px;
+height: 300px;
+margin-left: 50px;
+text-align: center;
+margin: auto;
+background-image: url(fundo.jpg);
+}
+
